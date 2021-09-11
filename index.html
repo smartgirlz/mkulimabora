@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login/Signup</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login_Signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<h2>Karibu Mkulima wetu Bora..!</h2>
+<div class="container" id="container">
+    <div class="form-container sign-up-container">
+        <form action="#">
+            <h1>Tengeneza Akaunti</h1>
+            <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-google"></i></a>
+<!--                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>-->
+            </div>
+            <span>Au tumia barua pepe kujisajili</span>
+            <input type="text" placeholder="jina" />
+            <input type="email" placeholder="barua pepe" />
+            <input type="password" placeholder="Nywila" />
+            <button onclick="location.href='malipo.html';" type="button">Jisajili</button>
+        </form>
+    </div>
+    <div class="form-container sign-in-container">
+        <form action="#">
+            <h1>Ingia</h1>
+            <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-google"></i></a>
+<!--                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>-->
+            </div>
+            <span>au tumia barua pepe yako</span>
+            <input type="email" placeholder="barua pepe" />
+            <input type="password" placeholder="nywila" />
+            <a href="#">Je, umesahau nywila?</a>
+            <button onclick="location.href='malipo.html';" type="button">Ingia</button>
+        </form>
+    </div>
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h1>Karibu Sana!</h1>
+                <p>Ili kua pamoja nasi, Tafadhali Ingia na maelezo ya kibinafsi</p>
+                <button class="ghost" id="signIn">Ingia</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+                <h1>Habari Rafiki!</h1>
+                <p>Ingiza maelezo ya kibinafsi kuanza safari nasi!</p>
+                <button class="ghost" id="signUp">Jisajili</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="login_Signup.js"></script>
+</body>
+</html>
